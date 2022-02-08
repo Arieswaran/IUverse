@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: 5e6b95723a2c07c41be8d1927d9c009f
+guid: 766aa1cfaf82c42498899f46982b58ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6664226259287230467
-    second: mega_5_0
+      213: -9090030812456956386
+    second: k (4)_0
   - first:
-      213: 3095126121792484291
-    second: mega_5_1
+      213: -381186394866852977
+    second: k (4)_1
   - first:
-      213: -701429671951000760
-    second: mega_5_2
+      213: -5495765588210577001
+    second: k (4)_2
   - first:
-      213: -516289460065271896
-    second: mega_5_3
+      213: 462917441537785363
+    second: k (4)_3
   - first:
-      213: -2418467098876629185
-    second: mega_5_4
+      213: -177046243330058932
+    second: k (4)_4
   - first:
-      213: 3620386202098330072
-    second: mega_5_5
+      213: -7048146265214021920
+    second: k (4)_5
   - first:
-      213: -2856213621955435745
-    second: mega_5_6
+      213: 2180975032738096217
+    second: k (4)_6
   - first:
-      213: -2039082115559722472
-    second: mega_5_7
+      213: -329370934052458169
+    second: k (4)_7
   - first:
-      213: 6273929000141374834
-    second: mega_5_8
+      213: -4523221235460185224
+    second: k (4)_8
+  - first:
+      213: 8960458968844371525
+    second: k (4)_9
+  - first:
+      213: -5492714835532658687
+    second: k (4)_10
+  - first:
+      213: -4418691843415211295
+    second: k (4)_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,9 +68,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -130,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mega_5_0
+      name: k (4)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        y: 599.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30845a769761c7c50800000000000000
-      internalID: 6664226259287230467
+      spriteID: e1ec52a1329b9d180800000000000000
+      internalID: -9090030812456956386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_5_1
+      name: k (4)_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 150
+        y: 599.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c339702fc814fa20800000000000000
-      internalID: 3095126121792484291
+      spriteID: f8bdfb45ef0c5baf0800000000000000
+      internalID: -381186394866852977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_5_2
+      name: k (4)_2
       rect:
         serializedVersion: 2
-        x: 682
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 300
+        y: 599.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,83 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b11700e650446f0800000000000000
-      internalID: -701429671951000760
+      spriteID: 79194e9b05e1bb3b0800000000000000
+      internalID: -5495765588210577001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_5_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8aff783b875c5d8f0800000000000000
-      internalID: -516289460065271896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mega_5_4
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3f2d76bcf0ef6ed0800000000000000
-      internalID: -2418467098876629185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mega_5_5
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d9ebc5b1123e3230800000000000000
-      internalID: 3620386202098330072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mega_5_6
+      name: k (4)_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.6666565
-        width: 341.33334
-        height: 341.33334
+        y: 400.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f13e6bcf7d0bc58d0800000000000000
-      internalID: -2856213621955435745
+      spriteID: 31e313fd5fc9c6600800000000000000
+      internalID: 462917441537785363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_5_7
+      name: k (4)_4
       rect:
         serializedVersion: 2
-        x: 341
-        y: 0.6666565
-        width: 341.33334
-        height: 341.33334
+        x: 150
+        y: 400.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 812f5329e99b3b3e0800000000000000
-      internalID: -2039082115559722472
+      spriteID: c459e7531610b8df0800000000000000
+      internalID: -177046243330058932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mega_5_8
+      name: k (4)_5
       rect:
         serializedVersion: 2
-        x: 682
-        y: 0.6666565
-        width: 341.33334
-        height: 341.33334
+        x: 300
+        y: 400.25
+        width: 150
+        height: 199.75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,8 +258,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 275c2775f29711750800000000000000
-      internalID: 6273929000141374834
+      spriteID: 0ee0ce08054ff2e90800000000000000
+      internalID: -7048146265214021920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954a95aac31644e10800000000000000
+      internalID: 2180975032738096217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 201.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741f67c61e6dd6bf0800000000000000
+      internalID: -329370934052458169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 201.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87364eb504a4a31c0800000000000000
+      internalID: -4523221235460185224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5468e6625f1f95c70800000000000000
+      internalID: 8960458968844371525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108ce8f65f4f5c3b0800000000000000
+      internalID: -5492714835532658687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: k (4)_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2.25
+        width: 150
+        height: 199.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2025dfd27ada2c0800000000000000
+      internalID: -4418691843415211295
       vertices: []
       indices: 
       edges: []

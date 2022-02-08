@@ -7,18 +7,24 @@ using System;
 public class WinPopupController : MonoBehaviour
 {
     public Button Continue_button;
-    public Text win_text;
+    public Text win_text,author_text;
     public List<String> wishes;
     private void OnEnable()
     {
-        int current_level = PlayerPrefs.GetInt("Current_level", 0);
-        Debug.Log("Current Level : " + current_level);
-        current_level = current_level % wishes.Count; //i am genius
-        Debug.Log("Current Level : " + current_level);
-        if (current_level < wishes.Count)
-        {
-            win_text.text = wishes[current_level];
-        }
+        // int current_level = PlayerPrefs.GetInt("Current_level", 0);
+        // Debug.Log("Current Level : " + current_level);
+        // current_level = current_level % wishes.Count; //i am genius
+        // Debug.Log("Current Level : " + current_level);
+        // if (current_level < wishes.Count)
+        // {
+        //     win_text.text = wishes[current_level];
+        // }
+    }
+
+    public void renderWinPopup(Level level){
+        win_text.text = "'"+level.quote+"'";
+        author_text.text = "- "+level.author.ToUpper();
+        gameObject.SetActive(true);
     }
 
     public void setContinueButton(Action callback = null)

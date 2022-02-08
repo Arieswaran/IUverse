@@ -12,6 +12,8 @@ public class Level
 {
     public Sprite[] current_level_sprites;
     public int level;
+    public string quote;
+    public string author;
 }
 [System.Serializable]
 public class Points
