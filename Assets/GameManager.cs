@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         achievements_button.onClick.RemoveAllListeners();
         achievements_button.onClick.AddListener(delegate ()
         {
-            //achievement_controller.gameObject.SetActive(true);
+            achievement_controller.gameObject.SetActive(true);
         });
         achievement_controller.wishes = win_popup_controller.wishes;
     }

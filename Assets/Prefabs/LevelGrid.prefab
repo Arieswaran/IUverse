@@ -55,7 +55,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3652093804315736930}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -98,10 +98,10 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 225, y: 225}
+  m_CellSize: {x: 400, y: 450}
   m_Spacing: {x: 5, y: 5}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Constraint: 1
+  m_ConstraintCount: 3
 --- !u!114 &3652093804315736953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile_prefab: {fileID: 5189036402089679636, guid: 8d1b4867d5bbd8b4d891edcada20b10b, type: 3}
   win_popup_controller: {fileID: 0}
+  block_overlay: {fileID: 0}
   levels:
   - current_level_sprites:
     - {fileID: 6090101750671084555, guid: 8f1bbac8bed543149b4d1d0d05604b46, type: 3}
@@ -130,12 +131,99 @@ MonoBehaviour:
     - {fileID: -1616302787182930793, guid: 8f1bbac8bed543149b4d1d0d05604b46, type: 3}
     - {fileID: -5594356837445534622, guid: 8f1bbac8bed543149b4d1d0d05604b46, type: 3}
     - {fileID: -3293399896600332453, guid: 8f1bbac8bed543149b4d1d0d05604b46, type: 3}
-    level: 0
+    level: 1
+    quote: The pain may hurt, but it will pass. If you bear it for just a little
+      bit,it will pass by.It will be in the past.
+    author: park min young
+  - current_level_sprites:
+    - {fileID: -9023008017176532929, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: -8596686164161997424, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 7875253064112760873, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 7509470508277194299, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 3918815228850276389, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 4407342600822385030, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 2340994492468955108, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 3652693103303040128, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: 7716313473449666006, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: -1706177920047766181, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: -1996820132740888117, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    - {fileID: -7031853094860008870, guid: 172b7c94eb3bada45a2fef6f81af1f72, type: 3}
+    level: 2
+    quote: the one who neglects and turns a blind eye to the abuse is worse than
+      the abuser
+    author: Seo Ye Ji
+  - current_level_sprites:
+    - {fileID: -9023008017176532929, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: -8596686164161997424, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 7875253064112760873, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 7509470508277194299, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 3918815228850276389, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 4407342600822385030, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 2340994492468955108, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 3652693103303040128, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: 7716313473449666006, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: -1706177920047766181, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: -1996820132740888117, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    - {fileID: -7031853094860008870, guid: 94deabbd9558ef04bb594c4d4134e351, type: 3}
+    level: 3
+    quote: If the world tricked you, just say "Ah! You fooled me well!" and get over
+      it with a smile
+    author: Park Bo Young
+  - current_level_sprites:
+    - {fileID: -9090030812456956386, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -381186394866852977, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -5495765588210577001, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: 462917441537785363, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -177046243330058932, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -7048146265214021920, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: 2180975032738096217, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -329370934052458169, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -4523221235460185224, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: 8960458968844371525, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -5492714835532658687, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    - {fileID: -4418691843415211295, guid: 766aa1cfaf82c42498899f46982b58ea, type: 3}
+    level: 4
+    quote: It's good to have a big dream. Even if your dream is shattered. The Shattered
+      pieces are still BIG
+    author: Park Shin Hye
+  - current_level_sprites:
+    - {fileID: 4706578517058480258, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 6799888308267598859, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 394482552184663900, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: -360978531838053871, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: -41106976575944199, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: -5800824672856729704, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 6387945320877961464, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 7198646282368496772, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 2928413262707403542, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: 144298434954755939, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: -1675585533464388, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    - {fileID: -541966234139339620, guid: 0d89748ff9b3bbe4c86bcf7db35ca5e0, type: 3}
+    level: 5
+    quote: if you want the rainbow you have to put up with the rain
+    author: Bae Suzy
+  - current_level_sprites:
+    - {fileID: 6090101750671084555, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: 2179600260746746048, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -2697339513357031615, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: 4371346322636054743, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -3847691479124559049, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: 691730523133689416, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -100036457441376978, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: 2847974627851985588, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: 6236487104843210610, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -1616302787182930793, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -5594356837445534622, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    - {fileID: -3293399896600332453, guid: 2d4155cb692944d4087dc87888fb562d, type: 3}
+    level: 6
+    quote: I don't want to live in a fear of a tomorrow that has not yet come
+    author: Park Min Young
   grid_layout: {fileID: 3652093804315736957}
   level_text: {fileID: 0}
   reset_button: {fileID: 0}
   close_button: {fileID: 0}
   current_level: 0
+  gridLayoutGroup: {fileID: 0}
 --- !u!114 &301947579
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,24 +20,24 @@ public class AchievementController : MonoBehaviour
     }
     private void OnEnable()
     {
-        int current_level = PlayerPrefs.GetInt("Current_level", 0);
-        if (current_level > 17)
-        {
-            current_level = 17;
-        }
-        for (int i = 0; i < current_level; i++)
-        {
-            Transform row = Instantiate(achievement_row_prefab, row_panel);
-            row.GetComponent<AchievementRowController>().setText(wishes[i]);
-        }
+        // int current_level = PlayerPrefs.GetInt("Current_level", 0);
+        // if (current_level > 17)
+        // {
+        //     current_level = 17;
+        // }
+        // for (int i = 0; i < current_level; i++)
+        // {
+        //     Transform row = Instantiate(achievement_row_prefab, row_panel);
+        //     row.GetComponent<AchievementRowController>().setText(wishes[i]);
+        // }
     }
     private void OnDisable()
     {
-        foreach (Transform t in row_panel)
-        {
-            {
-                Destroy(t.gameObject);
-            }
-        }
+        // foreach (Transform t in row_panel)
+        // {
+        //     {
+        //         Destroy(t.gameObject);
+        //     }
+        // }
     }
 }
