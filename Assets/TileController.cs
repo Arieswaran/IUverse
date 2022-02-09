@@ -41,6 +41,7 @@ public class TileController : MonoBehaviour
             {
                 swapFunc.Invoke(this.x, this.y);
             }
+            AudioManager.instance.playClickSound();
         });
     }
 

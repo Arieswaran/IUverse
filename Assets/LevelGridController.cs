@@ -164,6 +164,7 @@ public class LevelGridController : MonoBehaviour
         {
             gridLayoutGroup.spacing = new Vector2(0,0);
             block_overlay.SetActive(true);    
+            AudioManager.instance.playWinSound();
             StartCoroutine(startAfterDelay(showWinPopup,2));        
         }
     }
