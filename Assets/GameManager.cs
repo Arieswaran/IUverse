@@ -88,4 +88,13 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("score",score);
     }
 
+    public int getTimerBasedOnLevel(int level){
+        int timer = 60;
+        timer = timer - level; //add some logic here to control time limit //also can add easy medium hard later
+        if(timer < 10){
+            timer = 10;
+        }
+        return timer;
+    }
+
 }

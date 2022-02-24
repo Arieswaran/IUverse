@@ -102,16 +102,16 @@ public class LevelGridController : MonoBehaviour
             randomiseV2();
 
         }
-        if (level_text != null)
-        {
-            level_text.text = (current_level + 1).ToString();
-        }
+        // if (level_text != null)
+        // {
+        //     level_text.text = (current_level + 1).ToString();
+        // }
         if (reset_button != null)
         {
             reset_button.onClick.RemoveAllListeners();
             reset_button.onClick.AddListener(resetLevel);
         }
-        uIController.resetTimer();
+        uIController.renderUI(current_level);
         Debug.Log("Game Loaded Successfully");
     }
 
