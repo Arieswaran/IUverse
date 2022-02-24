@@ -16,6 +16,16 @@ public class GameManager : MonoBehaviour
     public Sprite menu_bg, game_bg;
 
     private int max_levels = 16; //0,1,2
+
+    public static GameManager instance;
+    
+    private void Awake() {
+        if(instance!= null){
+            Debug.LogError("Game manager instance already exists");
+        }else{
+            instance = this;
+        }
+    }
     private void Start()
     {
         init();
@@ -33,14 +43,15 @@ public class GameManager : MonoBehaviour
             // {
             level_controller.current_level += 1;
             //}
-            PlayerPrefs.SetInt("Current_level", level_controller.current_level);
-            level_controller.destroyLevel();
-            level_controller.init();
+            setCurrentLevel(level_controller.current_level);
+            level_controller.resetLevel();
         });
         MainMenu.SetActive(true);
         InGame.SetActive(false);
         Achievements.SetActive(false);
     }
+
+
     private void setButtons() //add button click sounds and animations if you can
     {
         play_button.onClick.RemoveAllListeners();
@@ -63,7 +74,18 @@ public class GameManager : MonoBehaviour
         {
             achievement_controller.gameObject.SetActive(true);
         });
-        achievement_controller.wishes = win_popup_controller.wishes;
+    }
+
+    public void setCurrentLevel(int level){
+        PlayerPrefs.SetInt("Current_level", level);        
+    }
+
+    public int getScore(){
+        return PlayerPrefs.GetInt("score",0);
+    }
+
+    public void setScore(int score){
+        PlayerPrefs.SetInt("score",score);
     }
 
 }

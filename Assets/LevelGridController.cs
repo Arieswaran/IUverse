@@ -11,6 +11,7 @@ public class LevelGridController : MonoBehaviour
     public TileController[,] mytiles = new TileController[array_size_x, array_size_y];
     public WinPopupController win_popup_controller;
     public GameObject block_overlay;
+    public UIController uIController;
 
     public Level[] levels;
     public Transform grid_layout;
@@ -22,6 +23,8 @@ public class LevelGridController : MonoBehaviour
 
     [SerializeField]
     public GridLayoutGroup gridLayoutGroup;
+    public GameObject lost_popup;
+    public Button lost_restart_button,main_menu;
 
     private void Start()
     {
@@ -32,6 +35,29 @@ public class LevelGridController : MonoBehaviour
         {
             transform.parent.gameObject.SetActive(false);
         });
+        lost_restart_button.onClick.RemoveAllListeners();
+        lost_restart_button.onClick.AddListener(delegate(){
+            lost_popup.gameObject.SetActive(false);
+            resetLevel();
+        });
+        main_menu.onClick.RemoveAllListeners();
+        main_menu.onClick.AddListener(delegate(){
+            lost_popup.gameObject.SetActive(false);
+            close_button.onClick.Invoke();
+        });
+    }
+    private void Update() {
+        //check timer
+        //if timer reaches 0, restart level and show you ran out of time
+        if(uIController.getTimeleft() <= 0){
+            //show popup and do this when user clicks continue button
+            lost_popup.gameObject.SetActive(true);
+        }
+    }
+
+    public void resetLevel(){
+        destroyLevel();
+        init();
     }
 
     private void Awake() {
@@ -83,8 +109,9 @@ public class LevelGridController : MonoBehaviour
         if (reset_button != null)
         {
             reset_button.onClick.RemoveAllListeners();
-            reset_button.onClick.AddListener(resetToZero);
+            reset_button.onClick.AddListener(resetLevel);
         }
+        uIController.resetTimer();
         Debug.Log("Game Loaded Successfully");
     }
 
@@ -96,7 +123,7 @@ public class LevelGridController : MonoBehaviour
     private void resetToZero()
     {
         current_level = 0;
-        PlayerPrefs.SetInt("Current_level", current_level);
+        GameManager.instance.setCurrentLevel(current_level);
         destroyLevel();
         init();
     }
