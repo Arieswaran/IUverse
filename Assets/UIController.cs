@@ -9,16 +9,18 @@ public class UIController : MonoBehaviour
     private float level_timer = 5;
     private string text_color = "white";
     private void Update() {
-        level_timer -= Time.deltaTime;
-        if(level_timer <= 0){
-            level_timer = 0;
+        if(GameManager.instance.getGameState() == STATE.PLAYING){
+            level_timer -= Time.deltaTime;
+            if(level_timer <= 0){
+                level_timer = 0;
+            }
+            if(level_timer < 10){
+                text_color = "red";
+            }else{
+                text_color = "white";
+            }
+            timer_text.text = "Time Left : <color="+text_color+">"+Mathf.Round(level_timer).ToString()+"</color>";
         }
-        if(level_timer < 10){
-            text_color = "red";
-        }else{
-            text_color = "white";
-        }
-        timer_text.text = "Time Left : <color="+text_color+">"+Mathf.Round(level_timer).ToString()+"</color>";
     }
 
     public void resetTimer(){

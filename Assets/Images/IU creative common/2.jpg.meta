@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 13f98ebd98c89fe409f187165e57ea78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6933896948892237988
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_0
+  - first:
+      213: 1350802684900849006
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_1
+  - first:
+      213: -8882196888318879200
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_2
+  - first:
+      213: -4231912596821569880
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_3
+  - first:
+      213: -9007497878419458135
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_4
+  - first:
+      213: -1696768932477731828
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_5
+  - first:
+      213: 2511230001520070420
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_6
+  - first:
+      213: -3917568888821493124
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_7
+  - first:
+      213: 3700610522940761794
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_8
+  - first:
+      213: -1287963201557939066
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_9
+  - first:
+      213: -2713175894119761738
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_10
+  - first:
+      213: 2474039847124411128
+    second: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ffc1c5679d5cf90800000000000000
+      internalID: -6933896948892237988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65b82392e30fb210800000000000000
+      internalID: 1350802684900849006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a5cae6df81cb480800000000000000
+      internalID: -8882196888318879200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae03f13ae93545c0800000000000000
+      internalID: -4231912596821569880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a739b14760fef280800000000000000
+      internalID: -9007497878419458135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cfeb155add378e0800000000000000
+      internalID: -1696768932477731828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f48ed916ea9d220800000000000000
+      internalID: 2511230001520070420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c725cae0adff1a9c0800000000000000
+      internalID: -3917568888821493124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e4f7f9a53b5330800000000000000
+      internalID: 3700610522940761794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c3d57ca4c302ee0800000000000000
+      internalID: -1287963201557939066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8b6d936ecd85ad0800000000000000
+      internalID: -2713175894119761738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_Chat-shire_concert_in_Busan,_29_November_2015_04_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f22308022e855220800000000000000
+      internalID: 2474039847124411128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

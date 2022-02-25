@@ -15,9 +15,13 @@ public class GameManager : MonoBehaviour
     public Image Background;
     public Sprite menu_bg, game_bg;
 
-    private int max_levels = 16; //0,1,2
+    private int max_levels = 13; //0,1,2
 
     public static GameManager instance;
+
+   
+
+    private STATE game_state = STATE.PAUSED;
     
     private void Awake() {
         if(instance!= null){
@@ -90,11 +94,60 @@ public class GameManager : MonoBehaviour
 
     public int getTimerBasedOnLevel(int level){
         int timer = 60;
-        timer = timer - level; //add some logic here to control time limit //also can add easy medium hard later
-        if(timer < 10){
-            timer = 10;
+        switch(difficultyLevel()){
+            case 0: timer = 60;
+            break;
+            case 1: timer = 30;
+            break;
+            case 2: timer = 15;
+            break;
+            default: timer = 15 - difficultyLevel();
+            break;
+        }
+        if(timer < 3){ //giving minimum 3 seconds whatever the difficulty is
+            timer = 3;
         }
         return timer;
     }
 
+    public void gameStarted(){
+        game_state = STATE.PLAYING;
+    }
+
+    public void gameWon(){
+        game_state = STATE.WON;
+    }
+
+    public void gameLost(){
+        game_state = STATE.LOST;
+    }
+
+    public STATE getGameState(){
+        return game_state;
+    }
+
+    public int difficultyLevel(){
+        int current_level = level_controller.current_level;
+        int max_level = level_controller.levels.Length;
+        if(current_level == 0){
+            return 0;
+        }
+        return current_level/max_level;
+    }
+
+    public int getRandomiseCount(){
+        Debug.Log("difficulty level : "+difficultyLevel());
+        if(difficultyLevel() == 0){
+            if(level_controller.current_level >3){
+                return 3;
+            }
+            return level_controller.current_level;
+        }
+        return difficultyLevel() * 2+ 3;
+    }
+}
+
+ public enum STATE
+{
+    PLAYING,WON,LOST, PAUSED
 }

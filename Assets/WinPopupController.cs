@@ -21,9 +21,12 @@ public class WinPopupController : MonoBehaviour
         // }
     }
 
-    public void renderWinPopup(Level level){
-        win_text.text = "'"+level.quote+"'";
-        author_text.text = "- "+level.author.ToUpper();
+    public void renderWinPopup(int level,int max_level){
+        win_text.text = "Congratulations!";//"'"+level.quote+"'";
+        //author_text.text = "- "+level.author.ToUpper();
+        if(level == max_level){
+            win_text.text = "Thank you for playing my game! Now let's see how you do in difficulty mode";
+        }
         gameObject.SetActive(true);
     }
 

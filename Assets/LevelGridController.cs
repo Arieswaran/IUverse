@@ -49,9 +49,12 @@ public class LevelGridController : MonoBehaviour
     private void Update() {
         //check timer
         //if timer reaches 0, restart level and show you ran out of time
-        if(uIController.getTimeleft() <= 0){
-            //show popup and do this when user clicks continue button
-            lost_popup.gameObject.SetActive(true);
+        if(GameManager.instance.getGameState() == STATE.PLAYING){
+            if(uIController.getTimeleft() <= 0){
+                //show popup and do this when user clicks continue button
+                GameManager.instance.gameLost();
+                lost_popup.gameObject.SetActive(true);
+            }
         }
     }
 
@@ -94,10 +97,11 @@ public class LevelGridController : MonoBehaviour
             }
         }
         //randomise();
-
+        int randomise_count = GameManager.instance.getRandomiseCount();
+        Debug.Log("randomise count "+ randomise_count);
         //randomize the start
         //check win condition if yes, randomize again
-        for (int i = 0; i <= current_level && points.Count > 1; i++)
+        for (int i = 0; i <= randomise_count && points.Count > 1; i++)
         {
             randomiseV2();
 
@@ -112,6 +116,7 @@ public class LevelGridController : MonoBehaviour
             reset_button.onClick.AddListener(resetLevel);
         }
         uIController.renderUI(current_level);
+        GameManager.instance.gameStarted();
         Debug.Log("Game Loaded Successfully");
     }
 
@@ -189,6 +194,7 @@ public class LevelGridController : MonoBehaviour
         already_selected_point = null;
         if (checkIfWin())
         {
+            GameManager.instance.gameWon();
             gridLayoutGroup.spacing = new Vector2(0,0);
             block_overlay.SetActive(true);    
             AudioManager.instance.playWinSound();
@@ -197,7 +203,7 @@ public class LevelGridController : MonoBehaviour
     }
 
     private void showWinPopup(){
-        win_popup_controller.renderWinPopup(getCurrentLevel());
+        win_popup_controller.renderWinPopup(current_level + 1,levels.Length);
         block_overlay.SetActive(false);    
     }
 

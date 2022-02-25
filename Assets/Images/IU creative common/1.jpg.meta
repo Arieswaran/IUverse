@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: d4e432f18b9ea2f4a9ec7d67c0d6afb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7138828038515012861
+    second: 20171203_IU_Cheongju_Concert_(cropped)_0
+  - first:
+      213: -1593481082722560937
+    second: 20171203_IU_Cheongju_Concert_(cropped)_1
+  - first:
+      213: -78407685512650345
+    second: 20171203_IU_Cheongju_Concert_(cropped)_2
+  - first:
+      213: 454823282154620026
+    second: 20171203_IU_Cheongju_Concert_(cropped)_3
+  - first:
+      213: -7832854637070108217
+    second: 20171203_IU_Cheongju_Concert_(cropped)_4
+  - first:
+      213: -7802944816220599870
+    second: 20171203_IU_Cheongju_Concert_(cropped)_5
+  - first:
+      213: 8425410078413446834
+    second: 20171203_IU_Cheongju_Concert_(cropped)_6
+  - first:
+      213: 1009626857934553696
+    second: 20171203_IU_Cheongju_Concert_(cropped)_7
+  - first:
+      213: 8337862498853735313
+    second: 20171203_IU_Cheongju_Concert_(cropped)_8
+  - first:
+      213: 7360259793856715631
+    second: 20171203_IU_Cheongju_Concert_(cropped)_9
+  - first:
+      213: 4435521891475539613
+    second: 20171203_IU_Cheongju_Concert_(cropped)_10
+  - first:
+      213: -7325798124279699816
+    second: 20171203_IU_Cheongju_Concert_(cropped)_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc6bbd8b9cdec90800000000000000
+      internalID: -7138828038515012861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754540cd561d2e9e0800000000000000
+      internalID: -1593481082722560937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ab5d10a079eef0800000000000000
+      internalID: -78407685512650345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7447688d5bdf4600800000000000000
+      internalID: 454823282154620026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c93a24353c1c4390800000000000000
+      internalID: -7832854637070108217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9023b080f56b390800000000000000
+      internalID: -7802944816220599870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be54da93d11de470800000000000000
+      internalID: 8425410078413446834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06202ee274ae20e00800000000000000
+      internalID: 1009626857934553696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b4a3e44c906b370800000000000000
+      internalID: 8337862498853735313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b5b634945e42660800000000000000
+      internalID: 7360259793856715631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d964edee8a32e8d30800000000000000
+      internalID: 4435521891475539613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20171203_IU_Cheongju_Concert_(cropped)_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e5127b69855a90800000000000000
+      internalID: -7325798124279699816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

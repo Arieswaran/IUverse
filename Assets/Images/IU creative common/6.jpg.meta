@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 8cedc37e3b863bd4f8a65cbe452cf7e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2557429984696485268
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_0
+  - first:
+      213: -1368072047082026980
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_1
+  - first:
+      213: -2203982082530533240
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_2
+  - first:
+      213: 3574646839145813873
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_3
+  - first:
+      213: -7700260634691244218
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_4
+  - first:
+      213: -6894805877522569031
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_5
+  - first:
+      213: 3106755942077131255
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_6
+  - first:
+      213: -3914171525836857050
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_7
+  - first:
+      213: -8633166335243414171
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_8
+  - first:
+      213: 4489205320588107536
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_9
+  - first:
+      213: -2181518235191954265
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_10
+  - first:
+      213: -1979640947891266581
+    second: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49544cf6501dd7320800000000000000
+      internalID: 2557429984696485268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c886b8b1a30de0800000000000000
+      internalID: -1368072047082026980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 768
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880217f19f1e961e0800000000000000
+      internalID: -2203982082530533240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17752c46c52bb9130800000000000000
+      internalID: 3574646839145813873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fed4f10cd232590800000000000000
+      internalID: -7700260634691244218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8edfaa59ab050a0800000000000000
+      internalID: -6894805877522569031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9675ba11a6d1b20800000000000000
+      internalID: 3106755942077131255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ab844cb11ea9c0800000000000000
+      internalID: -3914171525836857050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 256
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56594f465f4d03880800000000000000
+      internalID: -8633166335243414171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f9279447cdc4e30800000000000000
+      internalID: 4489205320588107536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b85829b0b9b1e0800000000000000
+      internalID: -2181518235191954265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(2)_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170.66667
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb9f16eb07e684e0800000000000000
+      internalID: -1979640947891266581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
