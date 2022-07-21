@@ -9,6 +9,7 @@ public class WinPopupController : MonoBehaviour
     public Button Continue_button;
     public Text win_text,author_text;
     public List<String> wishes;
+    private bool isWin = false;
     private void OnEnable()
     {
         // int current_level = PlayerPrefs.GetInt("Current_level", 0);
@@ -27,7 +28,14 @@ public class WinPopupController : MonoBehaviour
         if(level == max_level){
             win_text.text = "Thank you for playing my game! Now let's see how you do in difficulty mode";
         }
+        isWin = true;
         gameObject.SetActive(true);
+    }
+
+    public void renderInfoPopup() {
+        win_text.text = "Click on two images to swap them. Complete the image to proceed to next level";
+        gameObject.SetActive(true);
+        isWin = false;
     }
 
     public void setContinueButton(Action callback = null)
@@ -36,7 +44,7 @@ public class WinPopupController : MonoBehaviour
         Continue_button.onClick.AddListener(delegate ()
         {
             gameObject.SetActive(false);
-            if (callback != null)
+            if (callback != null && isWin)
             {
                 callback.Invoke();
             }

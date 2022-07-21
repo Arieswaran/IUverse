@@ -28,7 +28,7 @@ public class AchievementController : MonoBehaviour
         for (int i = 0;  i < image_textures.Count; i++)
         {
             Transform row = Instantiate(collection_image_prefab, image_content);
-            row.GetComponent<CollectionImageController>().renderImage(image_textures[i],i < current_level -1);
+            row.GetComponent<CollectionImageController>().renderImage(image_textures[i],i < current_level);
         }
     }
     private void OnDisable()

@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_3: -6502508487552272950
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_9: 3119956327302083636
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_8: -6418076730712920602
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_4: -6251931254943337733
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_0: -1448011961835056515
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_5: -5287444622289320654
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_2: 1579891081639946743
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_7: 4247142515546284661
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_11: 5139313484850854519
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_10: 8920621794023263785
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_6: 6281222890793421833
+      IU_at_her_concert_'dlwlrma',_18_November_2018_03_1: -5162726369256167644
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

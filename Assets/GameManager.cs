@@ -34,6 +34,13 @@ public class GameManager : MonoBehaviour
     {
         init();
         setButtons();
+        //if unity editor,then enable debug logs,else disable the debug logs
+#if UNITY_EDITOR
+        Debug.unityLogger.logEnabled = true;
+#else
+        Debug.unityLogger.logEnabled = false;
+#endif
+
     }
 
     private void init()

@@ -33,7 +33,7 @@ public class UIController : MonoBehaviour
     }
 
     public void renderUI(int current_level){
-        level.text = (current_level - 1).ToString();
+        level.text = (current_level + 1).ToString();
         level_timer = GameManager.instance.getTimerBasedOnLevel(current_level);
     }
 

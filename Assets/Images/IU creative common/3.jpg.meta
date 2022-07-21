@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_10: -3856934299751725744
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_3: 137505862879026871
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_8: -874562333673634617
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_4: 5252400853296515537
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_6: 216755468141365699
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_0: 784175963948307609
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_9: 8939041993694351749
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_7: -5972818836525443828
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_2: -9026616828778607620
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_1: 8466845477017250
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_5: -8486805337727822533
+      IU_at_'dlwlrma'_concert_in_Jeju_on_January_5,_2019_(1)_11: 6961352146291143269
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

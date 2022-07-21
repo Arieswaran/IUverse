@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_6": -5653155340806409603
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_8": -6498890629545862646
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_4": -1424392067148751083
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_3": -149883763379349412
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_0": -6663845868356134020
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_11": -7852704691168439528
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_7": 4071887516690392660
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_5": 2923579602350618820
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_10": -8214324744170817034
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_9": 1295561806428874379
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_1": -308587333502635146
+      "150912_IU_HongKong_\u4E0A\u6C34\u5E7F\u573A_(4)_2": -4151218855058787983
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

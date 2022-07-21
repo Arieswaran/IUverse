@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      20171203_IU_Cheongju_Concert_(cropped)_8: 8337862498853735313
+      20171203_IU_Cheongju_Concert_(cropped)_2: -78407685512650345
+      20171203_IU_Cheongju_Concert_(cropped)_4: -7832854637070108217
+      20171203_IU_Cheongju_Concert_(cropped)_9: 7360259793856715631
+      20171203_IU_Cheongju_Concert_(cropped)_1: -1593481082722560937
+      20171203_IU_Cheongju_Concert_(cropped)_11: -7325798124279699816
+      20171203_IU_Cheongju_Concert_(cropped)_5: -7802944816220599870
+      20171203_IU_Cheongju_Concert_(cropped)_7: 1009626857934553696
+      20171203_IU_Cheongju_Concert_(cropped)_3: 454823282154620026
+      20171203_IU_Cheongju_Concert_(cropped)_6: 8425410078413446834
+      20171203_IU_Cheongju_Concert_(cropped)_0: -7138828038515012861
+      20171203_IU_Cheongju_Concert_(cropped)_10: 4435521891475539613
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

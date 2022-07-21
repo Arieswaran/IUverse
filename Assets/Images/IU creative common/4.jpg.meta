@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      IU_at_the_2010_Melon_Music_Awards_(4)_2: -3989266237808099096
+      IU_at_the_2010_Melon_Music_Awards_(4)_6: 2815301073963737064
+      IU_at_the_2010_Melon_Music_Awards_(4)_11: -81080624593720433
+      IU_at_the_2010_Melon_Music_Awards_(4)_3: 8226122763079474689
+      IU_at_the_2010_Melon_Music_Awards_(4)_10: -7795628588576949241
+      IU_at_the_2010_Melon_Music_Awards_(4)_1: -1073027520941524031
+      IU_at_the_2010_Melon_Music_Awards_(4)_8: 2494443635956463175
+      IU_at_the_2010_Melon_Music_Awards_(4)_0: -7449607377297984568
+      IU_at_the_2010_Melon_Music_Awards_(4)_5: -6750777918776154382
+      IU_at_the_2010_Melon_Music_Awards_(4)_7: -7166316686141194388
+      IU_at_the_2010_Melon_Music_Awards_(4)_9: 5138904368526786692
+      IU_at_the_2010_Melon_Music_Awards_(4)_4: 1105068386019092852
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

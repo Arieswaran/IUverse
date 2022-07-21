@@ -117,6 +117,9 @@ public class LevelGridController : MonoBehaviour
         }
         uIController.renderUI(current_level);
         GameManager.instance.gameStarted();
+        if(current_level == 0) {
+            win_popup_controller.renderInfoPopup();
+        }
         Debug.Log("Game Loaded Successfully");
     }
 

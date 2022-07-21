@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,6 +126,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -400,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_9: 6413761622397787919
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_5: 2778843280776234432
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_7: 3391972022717544538
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_10: -5198561903405921530
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_4: -2338206830737246869
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_8: 7962513160727104044
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_11: -7971461582813351789
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_3: 8288187721214335354
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_1: 4250149360223685793
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_2: 1180038203971761894
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_6: 1037306051551503776
+      IU_performing_at_Yonsei_University_Akaraka_Festival,_17_May_2019_08_0: 8066090356639635005
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
