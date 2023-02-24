@@ -14,13 +14,15 @@ To get started, head over to the Google Play Store and search for IUverse. Or, j
 
 In this game, you will be solving jigsaw puzzles of IU's pictures. As you complete each level, you will unlock the corresponding picture in your collection. The higher the level, the more difficult the puzzle and the less time you have to complete it.
 
-<img src="https://media1.giphy.com/media/USkZe4FAFmEyHrw4QQ/giphy.gif" width="50%"/>
+![iuverse gameplay](https://user-images.githubusercontent.com/29358240/221121738-9fae9f90-89e7-4684-9025-a5457b3b76e2.gif)
+
 
 ## Collection
 
 Once you have completed a level, you can view the corresponding picture in your collection. This way, you can relive your favorite moments from IU's career whenever you want.
 
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzNiOGI2ZGI2MTU3YzY3YTdkZjU0MmM5Njk3ZWU2M2FhYjlhOGE3MiZjdD1n/od3QcfMcdMBqBDqCqz/giphy.gif" width="50%"/>
+![iuverse gallery](https://user-images.githubusercontent.com/29358240/221121883-6f078e9c-3fc3-4b15-8d3a-040f7b653f74.gif)
+
 
 ## About IU:
 
